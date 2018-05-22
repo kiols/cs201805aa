@@ -9,7 +9,7 @@ namespace DebugDemo
 
             Console.WriteLine("Debug demo");
 
-            int y = 10;
+            int y = 500;
             Console.WriteLine(y);
 
             // Variabel
