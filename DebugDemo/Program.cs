@@ -9,6 +9,9 @@ namespace DebugDemo
 
             Console.WriteLine("Debug demo");
 
+            int y = 10;
+            Console.WriteLine(y);
+
             // Variabel
             int x = 10;
             Console.WriteLine($"x = {x}");
