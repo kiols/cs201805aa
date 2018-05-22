@@ -7,7 +7,7 @@ namespace DebugDemo
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Debug demo");
+            
 
             int y = 500;
             Console.WriteLine(y);
