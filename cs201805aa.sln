@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefVariabler", "RefVariable
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackHeapOpg", "StackHeapOpg\StackHeapOpg.csproj", "{213FB068-F777-4DEC-9197-8DB3A8B99012}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoder", "Metoder\Metoder.csproj", "{68A2789B-777D-465A-BAB7-7B500E7BB20E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{213FB068-F777-4DEC-9197-8DB3A8B99012}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{213FB068-F777-4DEC-9197-8DB3A8B99012}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{213FB068-F777-4DEC-9197-8DB3A8B99012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A2789B-777D-465A-BAB7-7B500E7BB20E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A2789B-777D-465A-BAB7-7B500E7BB20E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A2789B-777D-465A-BAB7-7B500E7BB20E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A2789B-777D-465A-BAB7-7B500E7BB20E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
