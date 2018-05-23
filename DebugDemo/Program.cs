@@ -11,6 +11,7 @@ namespace DebugDemo
 
             int y = 500;
             Console.WriteLine(y);
+            
 
             // Variabel
             int x = 10;

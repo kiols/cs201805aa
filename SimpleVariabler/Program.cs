@@ -56,15 +56,18 @@ namespace SimpleVariabler
 
             int q = 1;
             q++;
-            
+
             q += 2;
             q *= 2;
             //q -= 8;
             q = q - 8;
 
-            if (DateTime.Now.Millisecond % 2 == 0) {
+            if (DateTime.Now.Millisecond % 2 == 0)
+            {
                 // lige
-            } else {
+            }
+            else
+            {
                 // ulige
             }
 
@@ -76,8 +79,8 @@ namespace SimpleVariabler
             //    short z = (short)a;
             //}
 
-//            short z = System.Convert.ToInt16(a);
-  //          short z2 = System.Convert.ToInt16("7575757");
+            //            short z = System.Convert.ToInt16(a);
+            //          short z2 = System.Convert.ToInt16("7575757");
 
             var x = "888";
 
@@ -145,17 +148,57 @@ namespace SimpleVariabler
             int Person2Alder = 50;
             string Person2Navn = "b";
 
-            
-            Person p1;
-            //p1.Alder++;
-            p1.Alder = 10;
-            p1.Navn = "a";
+
+            //Person p1;
+            ////p1.Alder++;
+            //p1.Alder = 10;
+            //p1.Navn = "a";
 
             // initialiseret til default
             Person p2 = new Person();
             p2.Alder++;
             p2.Alder = 30;
             p2.Navn = "b";
+
+            //Console.WriteLine(p1.Equals(p2));
+
+            // ******************************************
+            // Summering
+            // ******************************************
+
+
+            // int
+            // double
+            // bool, datetime, timespan
+
+            // enum
+
+            // struct
+
+            int p = 1;
+            int l = 2;
+
+
+            p = l;
+
+            l = 5;
+
+            Person a1 = new Person();
+            a1.Alder = 10;
+            a1.Navn = "a";
+
+            Person a2 = new Person();
+            a2.Alder = 20;
+            a2.Navn = "a";
+
+            a1 = a2;
+
+            a1.Navn = "b";
+
+            //Console.WriteLine(a1.Equals(a2));
+
+
+
 
         }
     }
@@ -168,11 +211,13 @@ namespace SimpleVariabler
         Kvinde
     }
 
-    enum KortFarve {
+    enum KortFarve
+    {
         Spar, Hjerter, Ruder, Klør
     }
 
-    struct Person {
+    class Person
+    {
 
         public int Alder;
         public string Navn;
