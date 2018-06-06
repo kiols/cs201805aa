@@ -18,6 +18,27 @@ namespace BestPratice
         // --------------------------------
         public int b;   // kan tilgås eksternt (problem....)
 
+        // ------------------------------------------------------
+
+        // Komplet egenskab (propfull)
+        private int _felt;
+
+        public int Felt
+        {
+            get {
+                // validering
+                // log
+                // sikkerhed
+                return _felt; }
+            set {
+                // validering
+                // log
+                // sikkerhed
+                _felt = value; }
+        }
+
+
+        // ------------------------------------------------------
 
         // metoder - offentig = udefra
         public void MetodeA() { }

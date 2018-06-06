@@ -34,6 +34,13 @@ namespace Egenskaber
             // Reflection
             var res = p.GetType().GetProperties();
 
+            string tmp = "sf;sdds;sdfds";
+            string[] ar = tmp.Split(';');
+
+
+            Person p2 = new Person();
+            p2.Id = 1;
+
 
         }
     }

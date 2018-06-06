@@ -36,7 +36,7 @@
                 _alder = value;
             }
         }
-        
+
         private string _adresse;
 
         public string Adresse
@@ -50,6 +50,21 @@
                 _adresse = value; }
         }
 
+        private int _id;
+
+        public int Id
+        {
+            get { return _id; }
+            private set {
+                // log
+                // validering
+                // sikkerhed
+                _id = value; }
+        }
+
+        public void FindNytId() {
+            this.Id = 1;        // logik
+        }
 
         public string NavnMedStort()
         {
