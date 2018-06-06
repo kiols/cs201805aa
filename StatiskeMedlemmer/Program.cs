@@ -36,9 +36,10 @@ namespace StatiskeMedlemmer
             //Person p5 = Person.TilfældigPerson();
             //p5.Gem();
 
-            Person p6 = Person.Hent(889231);
+            //Person p6 = Person.Hent(889231);
 
-
+            
+            
         }
     }
 

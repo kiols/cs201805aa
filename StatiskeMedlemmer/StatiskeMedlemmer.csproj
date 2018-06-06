@@ -45,11 +45,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MyRestaurant\Misc\MyRestaurantException.cs" />
+    <Compile Include="MyRestaurant\Model\Calendar.cs" />
+    <Compile Include="MyRestaurant\Model\CalendarDay.cs" />
+    <Compile Include="MyRestaurant\Model\DataContext.cs" />
+    <Compile Include="MyRestaurant\Model\IDataSupport.cs" />
+    <Compile Include="MyRestaurant\Model\Menu.cs" />
+    <Compile Include="MyRestaurant\Model\MenuGroup.cs" />
+    <Compile Include="MyRestaurant\Model\MenuGroups.cs" />
+    <Compile Include="MyRestaurant\Model\Menus.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="MyRestaurant\JsonData\menu.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="MyRestaurant\JsonData\menugroup.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

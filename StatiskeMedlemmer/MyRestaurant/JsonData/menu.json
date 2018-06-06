@@ -1,0 +1,74 @@
+[
+  {
+    "MenuId": 1,
+    "Name": "Winter vegetable & lentil soup",
+    "MenuGroupId": 1,
+    "Price": 10.0
+  },
+  {
+    "MenuId": 2,
+    "Name": "Creamy chicken & sweetcorn soup",
+    "MenuGroupId": 1,
+    "Price": 12.0
+  },
+  {
+    "MenuId": 3,
+    "Name": "Bouillabaisse",
+    "MenuGroupId": 1,
+    "Price": 20.0
+  },
+  {
+    "MenuId": 4,
+    "Name": "Peppered mackerel fish cakes",
+    "MenuGroupId": 2,
+    "Price": 42.0
+  },
+  {
+    "MenuId": 5,
+    "Name": "Smoked salmon & lemon risotto",
+    "MenuGroupId": 2,
+    "Price": 30.0
+  },
+  {
+    "MenuId": 6,
+    "Name": "Sea trout with samphire, potted shrimp & lemon",
+    "MenuGroupId": 2,
+    "Price": 75.0
+  },
+  {
+    "MenuId": 7,
+    "Name": "Stroganoff steaks",
+    "MenuGroupId": 3,
+    "Price": 40.0
+  },
+  {
+    "MenuId": 8,
+    "Name": "Steak with mushroom puff tartlets",
+    "MenuGroupId": 3,
+    "Price": 35.0
+  },
+  {
+    "MenuId": 9,
+    "Name": "Clementine pork steaks",
+    "MenuGroupId": 3,
+    "Price": 50.0
+  },
+  {
+    "MenuId": 10,
+    "Name": "Chocolate brownie cake",
+    "MenuGroupId": 4,
+    "Price": 15.0
+  },
+  {
+    "MenuId": 11,
+    "Name": "New York cheesecake",
+    "MenuGroupId": 4,
+    "Price": 18.0
+  },
+  {
+    "MenuId": 12,
+    "Name": "Chocolate fondant",
+    "MenuGroupId": 4,
+    "Price": 14.0
+  }
+]

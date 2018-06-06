@@ -1,0 +1,18 @@
+[
+  {
+    "MenuGroupId": 1,
+    "Name": "Soup"
+  },
+  {
+    "MenuGroupId": 2,
+    "Name": "Seafood"
+  },
+  {
+    "MenuGroupId": 3,
+    "Name": "Steak"
+  },
+  {
+    "MenuGroupId": 4,
+    "Name": "Dessert"
+  }
+]
