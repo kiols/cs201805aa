@@ -31,6 +31,20 @@ namespace OOP
 
             Bil b2 = new Bil(4, "");
 
+            Terning t1 = new Terning();
+            Console.WriteLine(t1.Skriv());
+            for (int i = 0; i < 10; i++)
+            {
+                t1.Ryst();
+                Console.WriteLine(t1.Skriv());
+
+            }
+            t1.værdi = 10;
+            Console.WriteLine(t1.Skriv());
+            Console.ReadKey();
+
+            DateTime dt = DateTime.Now;
+            
 
         }
     }
@@ -120,7 +134,28 @@ namespace OOP
         {
             this.motorStørrelse = motorStørrelse;
             this.navn = navn;
+
         }
+    }
+
+    class Terning {
+
+        public int værdi;
+        private static Random rnd = new Random();
+
+        public Terning()
+        {
+            this.værdi = 1;
+        }
+
+        public void Ryst() {
+            this.værdi = rnd.Next(1, 7);
+        }
+
+        public string Skriv() {
+             return "[" + this.værdi + "]";
+        }
+
     }
 
 
