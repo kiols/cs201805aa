@@ -26,7 +26,7 @@ namespace Egenskaber
             //p.Alder = -10;
             p.Navn = "Mikkel";
             Console.WriteLine(p.Navn);
-            Console.WriteLine(p.NavnMedStort());
+            Console.WriteLine(p.NavnMedStort);
 
             Console.WriteLine(p.ToStringEx());
 
@@ -39,9 +39,13 @@ namespace Egenskaber
 
 
             Person p2 = new Person();
-            p2.Id = 1;
 
 
+            Vandpumpe v = new Vandpumpe();
+            Console.WriteLine(v.ToStringEx());
+
+            Ubåd u = new Ubåd();
+            Console.WriteLine(u.ToStringEx());
         }
     }
 
@@ -117,4 +121,12 @@ namespace Egenskaber
         }
     }
 
+
+    class Ubåd {
+
+        public int Nummer { get; set; }
+        public string Navn { get; set; }
+        public int Tubine { get; private set; }
+
+    }
 }

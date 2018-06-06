@@ -66,10 +66,17 @@
             this.Id = 1;        // logik
         }
 
-        public string NavnMedStort()
-        {
-            return _navn.ToUpper();
+        //public string NavnMedStort()
+        //{
+        //    return _navn.ToUpper();
+        //}
+
+        public string NavnMedStort {
+            get {
+                return _navn.ToUpper();
+            }
         }
+
 
     }
 
