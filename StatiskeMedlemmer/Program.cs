@@ -105,6 +105,7 @@ namespace StatiskeMedlemmer
         public void Gem() {
             string json = Newtonsoft.Json.JsonConvert.SerializeObject(this);
             System.IO.File.WriteAllText(@"c:\temp\person" + this.Id + ".json", json);
+            
         }
         public static Person Hent(int id)
         {
