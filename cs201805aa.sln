@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackHeapOpg", "StackHeapOp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoder", "Metoder\Metoder.csproj", "{68A2789B-777D-465A-BAB7-7B500E7BB20E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{CC38FD3F-3DB8-4036-B431-B1E44A70D87A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{68A2789B-777D-465A-BAB7-7B500E7BB20E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68A2789B-777D-465A-BAB7-7B500E7BB20E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68A2789B-777D-465A-BAB7-7B500E7BB20E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC38FD3F-3DB8-4036-B431-B1E44A70D87A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC38FD3F-3DB8-4036-B431-B1E44A70D87A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC38FD3F-3DB8-4036-B431-B1E44A70D87A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC38FD3F-3DB8-4036-B431-B1E44A70D87A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
