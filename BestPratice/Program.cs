@@ -10,6 +10,8 @@ namespace BestPratice
     {
         static void Main(string[] args)
         {
+
+
         }
     }
 }
