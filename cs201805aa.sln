@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Egenskaber", "Egenskaber\Eg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFromDemo", "WinFromDemo\WinFromDemo.csproj", "{155E9454-1AEC-4735-9CEF-A3AA4CA0B976}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatiskeMedlemmer", "StatiskeMedlemmer\StatiskeMedlemmer.csproj", "{70F41AE5-D4D9-40DF-82DB-4B3DD698825C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{155E9454-1AEC-4735-9CEF-A3AA4CA0B976}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{155E9454-1AEC-4735-9CEF-A3AA4CA0B976}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{155E9454-1AEC-4735-9CEF-A3AA4CA0B976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70F41AE5-D4D9-40DF-82DB-4B3DD698825C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70F41AE5-D4D9-40DF-82DB-4B3DD698825C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70F41AE5-D4D9-40DF-82DB-4B3DD698825C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70F41AE5-D4D9-40DF-82DB-4B3DD698825C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
