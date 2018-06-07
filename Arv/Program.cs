@@ -33,9 +33,20 @@ namespace Arv
             {
                 person.Skriv();
             }
+
+            Console.WriteLine();
+
+            A a1 = new A();
+            a1.Test();
+
+            B b1 = new B();
+            b1.Test();
+
+            A a2 = new B();
+            a2.Test();
+
+            Test r = new Test();
             
-
-
         }
     }
 
@@ -112,6 +123,10 @@ namespace Arv
         {
             Console.WriteLine("Custom speciel i A");
         }
+
+        public virtual void Test() {
+            Console.WriteLine("Test i A");
+        }
     }
 
     public class B : A
@@ -128,6 +143,26 @@ namespace Arv
         {
             Console.WriteLine("Custom speciel i A");
         }
+
+        public override bool Equals(object obj)
+        {
+            return base.Equals(obj);
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
+        public override void Test()
+        {
+            Console.WriteLine("Test i B");
+        }
+
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
 
     public class C : B
@@ -141,4 +176,75 @@ namespace Arv
             Console.WriteLine("Custom i C");
         }
     }
+
+    partial class Test {
+        public void T1() { }
+    }
+    partial class Test {
+        public void T2() { }
+    }
+
+    // To parse this JSON data, add NuGet 'Newtonsoft.Json' then do:
+    //
+    //    using Teknolgisk;
+    //
+    //    var debitor = Debitor.FromJson(jsonString);
+
+    // https://app.quicktype.io/#l=cs&r=json2csharp
+    namespace Teknolgisk
+    {
+        using System;
+        using System.Collections.Generic;
+
+        using System.Globalization;
+        using Newtonsoft.Json;
+        using Newtonsoft.Json.Converters;
+
+        public partial class Debitor
+        {
+            [JsonProperty("navn")]
+            public string Navn { get; set; }
+
+            [JsonProperty("alder")]
+            public long Alder { get; set; }
+
+            [JsonProperty("iDk")]
+            public bool IDk { get; set; }
+
+            [JsonProperty("id")]
+            public long Id { get; set; }
+
+            [JsonProperty("fakturaer")]
+            public Fakturaer[] Fakturaer { get; set; }
+        }
+
+        public partial class Fakturaer
+        {
+            [JsonProperty("fakturaid")]
+            public long Fakturaid { get; set; }
+        }
+
+        public partial class Debitor
+        {
+            public static Debitor FromJson(string json) => JsonConvert.DeserializeObject<Debitor>(json, Teknolgisk.Converter.Settings);
+        }
+
+        public static class Serialize
+        {
+            public static string ToJson(this Debitor self) => JsonConvert.SerializeObject(self, Teknolgisk.Converter.Settings);
+        }
+
+        internal static class Converter
+        {
+            public static readonly JsonSerializerSettings Settings = new JsonSerializerSettings
+            {
+                MetadataPropertyHandling = MetadataPropertyHandling.Ignore,
+                DateParseHandling = DateParseHandling.None,
+                Converters = {
+                new IsoDateTimeConverter { DateTimeStyles = DateTimeStyles.AssumeUniversal }
+            },
+            };
+        }
+    }
+
 }
