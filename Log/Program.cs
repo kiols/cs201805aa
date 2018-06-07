@@ -44,6 +44,7 @@ namespace Log
             catch (Exception ex)
             {
                 logger.Error(ex);
+
                 throw;
             }
             logger.Debug("Hentet 50 poster");
