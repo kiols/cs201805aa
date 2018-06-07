@@ -27,6 +27,26 @@ namespace Terning
             Terning t5 = new LudoTerning();
             Console.WriteLine(t5.ToString());
 
+            try
+            {
+                LudoTerning y = new LudoTerning(10);
+            }
+
+            catch (TerningException ex) {
+                Console.WriteLine(ex.Message);
+            }
+            catch (ApplicationException ex)
+            {
+
+                Console.WriteLine(ex.Message);
+
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine(ex.Message);
+
+            }
         }
     }
 
@@ -43,7 +63,9 @@ namespace Terning
         public Terning(int værdi)
         {
             if (værdi < 1 || værdi > 6)
-                værdi = 1;
+                //værdi = 1;
+                //throw new ApplicationException("Forkert værdi på terning");
+                throw new TerningException("Forkert værdi på terning") { Terning = this };
             this.Værdi = værdi;
         }
         public void Ryst()
@@ -59,6 +81,18 @@ namespace Terning
         {
             return "[" + this.Værdi + "]";
         }
+    }
+
+    class TerningException : ApplicationException
+    {
+
+        public Terning Terning { get; set; }
+
+        public TerningException(string message): base(message)
+        {
+
+        }
+
     }
 
     class LudoTerning : Terning {
