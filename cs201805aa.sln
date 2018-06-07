@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teknologisk.Kortspil.UI.Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teknologisk.Kortspil.Test.UnitTest", "Teknologisk.Kortspil.Test.UnitTest\Teknologisk.Kortspil.Test.UnitTest.csproj", "{34BF8F5D-FD5E-4891-A530-48FAF2F96763}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arv", "Arv\Arv.csproj", "{E629FDDD-BE35-4D30-9102-C9F94E87F051}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{34BF8F5D-FD5E-4891-A530-48FAF2F96763}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34BF8F5D-FD5E-4891-A530-48FAF2F96763}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34BF8F5D-FD5E-4891-A530-48FAF2F96763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E629FDDD-BE35-4D30-9102-C9F94E87F051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E629FDDD-BE35-4D30-9102-C9F94E87F051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E629FDDD-BE35-4D30-9102-C9F94E87F051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E629FDDD-BE35-4D30-9102-C9F94E87F051}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

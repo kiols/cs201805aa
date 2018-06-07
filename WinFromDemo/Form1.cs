@@ -30,5 +30,25 @@ namespace WinFromDemo
             Egenskaber.Person p = propertyGrid1.SelectedObject as Egenskaber.Person;
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+            minKnap m = new minKnap();
+            this.Controls.Add(m);
+
+
+        }
     }
+
+    public class minKnap : Button {
+
+        public minKnap()
+        {
+            this.Width = 100;
+            this.Height = 100;
+            this.BackColor = System.Drawing.Color.Yellow;
+        }
+    }
+
 }
