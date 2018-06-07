@@ -23,10 +23,23 @@ namespace Arv
             HjælpeInstruktør h = new HjælpeInstruktør() { Navn = "d" };
             h.Skriv();
 
+            Person w = new Instruktør();
+
+            Person[] a = new Person[3];
+            a[0] = new Person() { Navn = "a" };
+            a[1] = new Instruktør() { Navn = "b" };
+            a[2] = new Kursist() { Navn = "c" };
+            foreach (Person person in a)
+            {
+                person.Skriv();
+            }
             
+
 
         }
     }
+
+    class Dyr { }
 
     public class Person
     {
@@ -38,7 +51,7 @@ namespace Arv
         public int Id { get; set; }
         public string Navn { get; set; }
 
-        public void Skriv() {
+        public virtual void Skriv() {
             Console.WriteLine("Jeg er en person og hedder " + this.Navn);
             this.PrivatFunktion();
         }
@@ -52,6 +65,12 @@ namespace Arv
         public void SkrivLønSeddel() {
             
         }
+
+        public override void Skriv()
+        {
+            Console.WriteLine("Jeg er en instruktør og hedder " + this.Navn);
+            
+        }
     }
 
     public class Kursist : Person
@@ -59,11 +78,22 @@ namespace Arv
 
         public double KursistId { get; set; }
         public void MailTilLogin() { }
+
+        public override void Skriv()
+        {
+            Console.WriteLine("Jeg er en kursist og hedder " + this.Navn);
+
+        }
     }
 
     public sealed class HjælpeInstruktør : Instruktør {
         public int PraktikPeriode { get; set; }
         public void SpecielLogin() { }
+        public override void Skriv()
+        {
+            Console.WriteLine("Jeg er en hjælpeinstruktør og hedder " + this.Navn);
+
+        }
     }
 
     //public class Elev : HjælpeInstruktør { }

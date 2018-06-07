@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teknologisk.Kortspil.Test.U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arv", "Arv\Arv.csproj", "{E629FDDD-BE35-4D30-9102-C9F94E87F051}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terning", "Terning\Terning.csproj", "{B563A603-6A8B-4248-A59D-EB6B1876BF0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{E629FDDD-BE35-4D30-9102-C9F94E87F051}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E629FDDD-BE35-4D30-9102-C9F94E87F051}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E629FDDD-BE35-4D30-9102-C9F94E87F051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B563A603-6A8B-4248-A59D-EB6B1876BF0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B563A603-6A8B-4248-A59D-EB6B1876BF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B563A603-6A8B-4248-A59D-EB6B1876BF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B563A603-6A8B-4248-A59D-EB6B1876BF0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
