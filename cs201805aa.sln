@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fejl2", "Fejl2\Fejl2.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{99298ECA-6AE0-4AE6-8F4B-2F90AD2724A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "using", "using\using.csproj", "{0D9F08A7-6124-4601-9AC3-85B0B8D5E0BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{D6DDF419-116C-432A-B300-0EB6F03992FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{99298ECA-6AE0-4AE6-8F4B-2F90AD2724A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99298ECA-6AE0-4AE6-8F4B-2F90AD2724A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99298ECA-6AE0-4AE6-8F4B-2F90AD2724A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D9F08A7-6124-4601-9AC3-85B0B8D5E0BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9F08A7-6124-4601-9AC3-85B0B8D5E0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9F08A7-6124-4601-9AC3-85B0B8D5E0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9F08A7-6124-4601-9AC3-85B0B8D5E0BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6DDF419-116C-432A-B300-0EB6F03992FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6DDF419-116C-432A-B300-0EB6F03992FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6DDF419-116C-432A-B300-0EB6F03992FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6DDF419-116C-432A-B300-0EB6F03992FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
