@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fejl", "Fejl\Fejl.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog", "NLog\NLog.csproj", "{F563526E-E384-4A2F-B288-C0BD60DE473B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fejl2", "Fejl2\Fejl2.csproj", "{3F282703-4EAA-4294-84C4-5EB0AD2EA080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{99298ECA-6AE0-4AE6-8F4B-2F90AD2724A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{F563526E-E384-4A2F-B288-C0BD60DE473B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F563526E-E384-4A2F-B288-C0BD60DE473B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F563526E-E384-4A2F-B288-C0BD60DE473B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F282703-4EAA-4294-84C4-5EB0AD2EA080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F282703-4EAA-4294-84C4-5EB0AD2EA080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F282703-4EAA-4294-84C4-5EB0AD2EA080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F282703-4EAA-4294-84C4-5EB0AD2EA080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99298ECA-6AE0-4AE6-8F4B-2F90AD2724A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99298ECA-6AE0-4AE6-8F4B-2F90AD2724A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99298ECA-6AE0-4AE6-8F4B-2F90AD2724A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99298ECA-6AE0-4AE6-8F4B-2F90AD2724A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

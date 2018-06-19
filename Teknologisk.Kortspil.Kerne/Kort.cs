@@ -26,7 +26,12 @@ namespace Teknologisk.Kortspil.Kerne
         public Kort(int værdi, KortKulør kulør)
         {
             if (værdi < 2 || værdi > 14)
-                værdi = 2;
+            //værdi = 2;
+            {
+                //ApplicationException e = new ApplicationException("Forkert værdi på kort");
+                //throw e;
+                throw new KortException("Forkert værdi på kort") { TimeStamp = DateTime.Now };
+            }
             this.Værdi = værdi;
             this.Kulør = kulør;
         }
