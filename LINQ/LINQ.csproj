@@ -42,11 +42,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\PersonNuGetPackage\Country.cs" />
+    <Compile Include="Models\PersonNuGetPackage\Gender.cs" />
+    <Compile Include="Models\PersonNuGetPackage\IPersonRepository.cs" />
+    <Compile Include="Models\PersonNuGetPackage\Person.cs" />
+    <Compile Include="Models\PersonNuGetPackage\PersonHelperMethods.cs" />
+    <Compile Include="Models\PersonNuGetPackage\PersonRepositoryDummy.cs" />
+    <Compile Include="Models\PersonNuGetPackage\PersonRepositoryRandom.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Models\PersonNuGetPackage\PersonReadme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
