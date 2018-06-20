@@ -23,7 +23,7 @@ namespace Generics
 
             Swap(ref a, ref b);
 
-            Punkt<byte> p = new Punkt<byte>();
+            //Punkt<byte> p = new Punkt<byte>();
             
 
         }
